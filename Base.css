@@ -1,0 +1,284 @@
+/* Forms */
+.emby-button {
+    background-color: var(--layer2);
+    color: var(--main-color) !important;
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.button-link {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.emby-button:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.button-submit:focus {
+    background-color: var(--layer3);
+    color: var(--main-color);
+}
+
+.emby-input, .emby-select, .emby-textarea {
+    background-color: var(--layer2);
+    border-radius: 0.3rem;
+    border: 0.07em solid var(--border-line)
+}
+
+.inputLabelFocused, .selectLabelFocused, .textareaLabelFocused {
+    color: var(--main-color);
+}
+
+.emby-select-withcolor > option {
+    background-color: var(--layer3);
+}
+
+.emby-input:focus, .emby-textarea:focus, .emby-select-withcolor:focus, .emby-checkbox:focus:not(:checked) + span + .checkboxOutline {
+    border-color: var(--layer3) !important;
+}
+
+.checkboxIcon-checked {
+    color: var(--layer1) !important;
+}
+
+
+/* Button Elements */
+.fab:focus, .raised:focus {
+    background-color: var(--layer3);
+}
+
+.paper-icon-button-light:hover:not(:disabled) {
+    background-color: var(--layer2);
+    color: var(--icon-color);
+}
+
+.paper-icon-button-light:active:not(:disabled) {
+    background-color: var(--layer3);
+    color: var(--main-color);
+}
+
+.sectionTitleTextButton:not(.padded-left) {
+    padding: 0.7rem !important;
+}
+
+
+/* General Content */
+.content-primary, .backgroundContainer, .mainDrawer {
+    background-color: var(--layer1);
+}
+
+.navMenuOption {
+    margin-bottom: 0.25rem !important;
+}
+
+.navMenuOption-selected, .navMenuOption-selected .material-icons {
+    background-color: var(--main-color) !important;
+    color: var(--layer1) !important;
+}
+
+.skinHeader-withBackground {
+    background-color: var(--layer2);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    color: var(--main-color);
+}
+
+.skinHeader-withBackground:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.material-icons {
+    color: var(--icon-color);
+}
+
+.emby-checkbox:checked + span + .checkboxOutline {
+    border: 0.07em solid var(--border-line)
+}
+
+.mdl-radio.show-focus .mdl-radio__button:focus+.mdl-radio__circles .mdl-radio__outer-circle, .mdl-radio.show-focus .mdl-radio__button:focus+.mdl-radio__circles .mdl-radio__inner-circle {
+    color: var(--main-color);
+}
+
+.mdl-radio__focus-circle {
+    background-color: var(--main-color);
+}
+
+.sectionTitleTextButton {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+
+
+/* Overview Settings */
+.activeDevices {
+    margin-top: 0 !important;
+}
+.cardContent, .cardBox {
+    border-radius: 0.3rem;
+}
+
+.itemProgressBar {
+    background: transparent !important;
+}
+
+.backgroundProgress > div {
+    background-color: var(--layer2);
+}
+
+.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
+    background-color: var(--main-color);
+}
+
+.playbackProgress > div {
+    background-color: var(--layer3);
+}
+
+.transcodingProgress > div {
+    background-color: #ff6961;
+}
+
+
+.paperList {
+    border-radius: 0.3rem;
+    background-color: var(--text-background);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.listItem-border {
+    margin-bottom: 0.5rem;
+    border: 0;
+    border-radius: 0.3rem;
+    background-color: var(--layer2);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* Front Page */
+.emby-tabs .emby-tab-button {
+    box-shadow: none !important;
+    color: var(--inactive-text) !important;
+}
+
+.emby-tabs .emby-tab-button-active {
+    color: var(--main-color) !important;
+}
+
+.visualCardBox {
+    background-color: var(--layer2);
+}
+
+.countIndicator, .fullSyncIndicator, .playedIndicator {
+    background-color: var(--layer3);
+}
+
+.actionSheet {
+    background-color: var(--layer2);
+    border-radius: 0.3rem !important;
+}
+
+.actionSheetMenuItem:hover {
+    background-color: var(--layer3);
+}
+
+.actionSheetMenuItem {
+    margin-bottom: 0.25rem;
+}
+
+.actionsheetDivider {
+    background: transparent;
+}
+
+.listItem:focus {
+    background-color: var(--layer3);
+}
+
+.cardBox:not(.visualCardBox) .cardPadder, .cardContent-shadow {
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.cardOverlayContainer {
+    border-radius: 0.3rem;
+}
+
+.cardOverlayButton {
+    margin-right: 0.25rem;
+}
+
+.ratingbutton-icon-withrating, .playstatebutton-icon-played {
+    color: var(--main-color);
+}
+
+.listItem, .listItemBody, .listItemMediaInfo {
+    margin-right: 1rem;
+}
+
+.detailRibbon {
+    background-color: rgba(var(--layer2-rgb), 0.8);
+}
+
+.skinHeader.semiTransparent {
+    background-color: rgba(var(--layer2-rgb), 0.4);
+}
+
+
+/* Settings */
+#myPreferencesMenuPage .verticalSection > a {
+    margin-bottom: 1rem !important;
+}
+
+/* User Settings */
+.localUsers .cardText-secondary {
+    height: fit-content;
+}
+
+/* Activities */
+#serverActivityPage .activityItems {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* API Settings */
+.backgroundContainer, .dialog, .nowPlayingPlaylist, .nowPlayingContextMenu, .formDialogHeader:not(.formDialogHeader-clear), .formDialogFooter:not(.formDialogFooter-clear) {
+    background-color: var(--layer1);
+}
+
+/* Notification Settings */
+.notifications:not(.navMenuOptionIcon), .notifications_active {
+    color: var(--layer1) !important;
+    background-color: var(--main-color) !important;
+}
+
+.notifications_off {
+    background-color: var(--layer2) !important;
+    color: var(--icon-color) !important;
+}
+
+/* Plugin Settings */
+@media (min-width: 84em) {
+    .withTabs .content-primary {
+        padding-top: 8em!important;
+    }
+}
+
+#repositories .paperList .emby-button {
+    box-shadow: none !important;
+}
+
+.collapseContent {
+    background-color: var(--layer3);
+}
+
+/* Scheduled Tasks Settings */
+.divScheduledTasks .emby-button {
+    box-shadow: none !important;
+}
+
+
+/* Metadata Editor */
+.metadataFormFields .listItemIcon {
+    background-color: var(--main-color) !important;
+    color: var(--layer1) !important;
+}
