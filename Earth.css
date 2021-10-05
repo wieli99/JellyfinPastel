@@ -259,9 +259,9 @@
 }
 
 /* Notification Settings */
-.listItemIcon:not(.listItemIcon-transparent) {
-    color: var(--layer1);
-    background-color: var(--main-color);
+.notifications:not(.navMenuOptionIcon), .notifications_active {
+    color: var(--layer1) !important;
+    background-color: var(--main-color) !important;
 }
 
 .notifications_off {
