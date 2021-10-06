@@ -10,9 +10,6 @@
     border-radius: 1rem;
     box-shadow: var(--default-shadow);
 }
-.emby-button * {
-    color: var(--main-color) !important;
-}
 
 .emby-button:hover {
     box-shadow: var(--hover-shadow);
