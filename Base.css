@@ -214,7 +214,7 @@
     .portraitCard, .squareCard {
         width: 22%;
         transition: all 0.2s ease-in-out;
-        transition-delay: 0.75s;
+        transition-delay: 1.5s;
     }
 
     .portraitCard:hover, .squareCard:hover {
@@ -228,7 +228,7 @@
     .backdropCard {
         width: 30%;
         transition: all 0.2s ease-in-out;
-        transition-delay: 0.75s;
+        transition-delay: 1.5s;
     }
 
     .backdropCard:hover {
@@ -240,7 +240,7 @@
     .portraitCard, .squareCard {
         width: 18%;
         transition: all 0.2s ease-in-out;
-        transition-delay: 0.75s;
+        transition-delay: 1.5s;
     }
 
     .portraitCard:hover, .squareCard:hover {
@@ -253,7 +253,7 @@
     .backdropCard {
         width: 22%;
         transition: all 0.2s ease-in-out;
-        transition-delay: 0.75s;
+        transition-delay: 1.5s;
     }
 
     .backdropCard:hover {
