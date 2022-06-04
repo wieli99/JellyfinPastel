@@ -121,6 +121,10 @@
     background-color: var(--layer3);
 }
 
+.selectSubtitles {
+    margin-left: 5px;
+}
+
 
 
 /* Overview Settings */
