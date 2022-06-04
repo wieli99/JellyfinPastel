@@ -1,6 +1,6 @@
 :root {
     --main-color: #56B5C2;
-    --layer3: #C578DD;
+    --layer3: #D19965;
     --layer2: #21242B;
     --layer1: #272B33;
     --text-background: darken(#AAB1BF, 26%);
@@ -8,5 +8,5 @@
     --border-line: #292929;
     
     --layer2-rgb: 33, 36, 43;
-    --icon-color: #D19965;
+    --icon-color: #C578DD;C578DD
 }
